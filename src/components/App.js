@@ -1,10 +1,10 @@
 import React from 'react';
-import {selecSong} from '../actions';
+import SongList from './SongList';
 
 function App() {
   return (
     <div className="App">
-      <h1>App</h1>
+      <SongList />
     </div>
   );
 }
